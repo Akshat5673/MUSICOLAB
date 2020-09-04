@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Sacramento', cursive;
+  background: linear-gradient(to left, #23092D, #06050C);
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  flex: 1;
+}
+
+.logo-container, .nav-links, .logo-container {
+  display: flex;
+  animation: drop 1.5s ease;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.brand-logo-name {
+  color: #FFFF;
+  margin: 5px;
+  font: Sacramento;
+  font-weight: 400;
+  font-size: 48px;
+  width: 60%;
+  margin-top: 15px;
+}
+
+nav {
+  flex: 1;
+}
+
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+  font-family: sans-serif;
+  font: Poppins;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+.nav-link {
+  display: inline-flex;
+  color: #FFFF;
+  font-size: 18px;
+  text-decoration: none;
+  font: Poppins, sans-serif;
+  margin-right: 75px;
+}
+
+.nav-link1 {
+  color: #FFFF;
+  font-size: 18px;
+  text-decoration: none;
+  font: Poppins, sans-serif;
+  margin-right: 30px;
+}
+
+.Hozier {
+  position: absolute;
+  left: 21px;
+  top: 250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  animation: drop 1.5s ease;
+}
+
+.quote {
+  position: absolute;
+  width: 716px;
+  height: 98px;
+  left: 139px;
+  top: 250px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #FFFFFF;
+  margin-top: -70px;
+  animation: drop 1.5s ease;
+}
+
+.heading {
+  position: absolute;
+  width: 427px;
+  height: 108px;
+  left: 1055px;
+  top: 250px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 108px;
+  color: #FFFFFF;
+}
+
+.punchline {
+  position: absolute;
+  width: 760px;
+  height: 68px;
+  left: 1055px;
+  top: 350px;
+  font-family: Sacramento;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 93px;
+  color: #FFFFFF;
+  animation: drop 1.5s ease;
+}
+
+.buttons {
+  position: absolute;
+  left: 1055px;
+  top: 440px;
+}
+
+.joinus {
+  border: 2px solid #2B52B4;
+  background: transparent;
+  color: #2B52B4;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right: 55px;
+}
+
+.login {
+  background: #2B52B4;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.el{
+  z-index: -1;
+}
+
+.el1 {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: 63px;
+  top: 450px;
+  border-radius: 50%;
+  background: rgba(43, 82, 180, 0.05);
+  animation: drop 1.5s ease;
+}
+
+.el2 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 500px;
+  top: 41px;
+  border-radius: 50%;
+  background: rgba(43, 82, 180, 0.1);
+  animation: drop 1.5s ease;
+}
+
+.el3 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 700px;
+  top: 500px;
+  border-radius: 50%;
+  background: rgba(43, 82, 180, 0.1);
+  animation: drop 1.5s ease;
+}
+
+.el4 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 1200px;
+  top: 500px;
+  border-radius: 50%;
+  background: rgba(43, 82, 180, 0.2);
+  animation: drop 1.5s ease;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .Work{
+    flex-direction: column;
+  }
+}
